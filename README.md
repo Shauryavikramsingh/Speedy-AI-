@@ -1,11 +1,20 @@
- SpeedyAI: The Zero-Latency "Flow State" Tutor"Curiosity doesn't wait for a loading bar."SpeedyAI is a high-velocity learning engine built to bridge the "latency gap" in digital education. By leveraging Cerebras inference to achieve sub-100ms response times, we turn sluggish AI chats into a high-energy, "FaceTime-like" experience. The Problem: The "3-Second Rule"For students with ADHD, a 3-second "processing" pause is more than just a delay—it's a cognitive break. This "lag" kills focus, invites tab-switching, and destroys the Flow State required for deep learning. The Solution: Interruption-Based LearningSpeedyAI treats conversation as a live stream, not a turn-based exchange. It eliminates the perceived "thinking" time, allowing students to:Interrupt mid-sentence without a system stutter.Pivot instantly to tangents when curiosity strikes.Engage verbally with zero-buffer Speech-to-Text. Key Features Zero-Latency PivotingPowered by the Cerebras CS-3 architecture, the LLM stops and adapts the millisecond a user begins typing or speaking a new thought Kinetic UI/UXFeatureADHD BenefitWord-Burst StreamingMatches natural reading speed; prevents "waiting" boredom.Cognitive AnchoringA pinned "Main Idea" card keeps students grounded during tangents.Dopamine LoopsInstant haptic and visual feedback for every correct interaction. The "Body Doubling" InterfaceThe UI feels like a shared workspace. A collaborative digital whiteboard allows the AI and student to draw and solve problems simultaneously in real-time. Technical ArchitectureInference: Cerebras AI (Sub-100ms LLM Inference)Frontend: Next.js 14 (App Router) with Framer Motion for kinetic UI.State Management: Real-time WebSockets for bi-directional interruption handling.Voice Engine: Deepgram (STT) + Cartesia/ElevenLabs (Ultra-low latency TTS). Getting StartedInstallation# Clone the repository
-git clone [https://github.com/your-username/SpeedyAI.git](https://github.com/your-username/SpeedyAI.git)
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-# Install dependencies
-cd SpeedyAI && npm install
+# Run and deploy your AI Studio app
 
-# Configure Environment
-cp .env.example .env.local
-# Add your CEREBRAS_API_KEY to .env.local
-Running the Enginenpm run dev
-Design Philosophy: "Frictionless First"We follow the ADHD Focus Protocol:Minimalist Dashboards: No unnecessary menus or sidebars.Dyslexia-Friendly: Using OpenDyslexic font options.Color-Coded Feedback: Instant green/red visual cues (no "Submit" buttons required).🤝 ContributingWe are looking for:Neurodiversity Researchers to refine our engagement loops.Latency Engineers to shave off every possible millisecond.Creative Educators to build "Speed-Teaching" curricula.📜 LicenseThis project is licensed under the MIT License - see the LICENSE file for details.SpeedyAI — Moving as fast as the mind.
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/e44db8f8-66e1-4627-8e8d-c3f85c10f86f
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
